@@ -47,6 +47,11 @@ theme = "opendots-theme"
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 # Build settings for Cloudflare Pages
 [build]
   writeStats = true
