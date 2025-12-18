@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</section>
+
+<section class="featured-posts">
+  <h2>Latest Posts</h2>
+  <div class="posts-grid">
+    {{ range first 6 (where .Site.RegularPages "Section" "posts") }}
+    <article class="post-card">
+      {{ with .Params.cover.image }}
+      <a href="{{ $.Permalink }}" class="post-cover">
+        <img src="{{ . }}" alt="{{ $.Params.cover.alt | default $.Title }}" loading="lazy">
+      </a>
+      {{ end }}
+      <div class="post-card-content">
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+        <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p class="post-excerpt">{{ .Summary | truncate 120 }}</p>
+        <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+  
+  <div class="view-all">
+    <a href="{{ "posts/" | relURL }}" class="btn">View All Posts</a>
+  </div>
+</section>
+{{ end }}

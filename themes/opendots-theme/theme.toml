@@ -1,0 +1,11 @@
+name = "OpenDots Theme"
+license = "MIT"
+licenselink = "https://github.com/opendots/blog/blob/main/LICENSE"
+description = "A minimal, modern blog theme for OpenDots"
+homepage = "https://blogs.opendots.in"
+tags = ["blog", "minimal", "responsive"]
+features = ["responsive", "seo", "syntax-highlighting"]
+min_version = "0.80.0"
+
+[author]
+  name = "OpenDots Team"

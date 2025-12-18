@@ -1,0 +1,13 @@
+{
+  "name": "opendots-blog",
+  "version": "1.0.0",
+  "description": "OpenDots Blog - Hugo static site",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify",
+    "new": "hugo new posts/"
+  },
+  "keywords": ["blog", "hugo", "opendots"],
+  "author": "OpenDots Team",
+  "license": "MIT"
+}

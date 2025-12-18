@@ -1,0 +1,47 @@
+baseURL = "https://blogs.opendots.in/"
+languageCode = "en-us"
+title = "OpenDots Blog"
+theme = "opendots-theme"
+
+# URL structure: /post-slug/
+[permalinks]
+  posts = "/:slug/"
+
+[params]
+  description = "Stories, updates, and insights from the OpenDots community"
+  author = "OpenDots Team"
+  logo = "/images/logo.svg"
+  
+  # Social links
+  twitter = "opendots"
+  github = "opendots"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Build settings for Cloudflare Pages
+[build]
+  writeStats = true
