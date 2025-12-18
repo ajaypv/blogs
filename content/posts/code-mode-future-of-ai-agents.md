@@ -8,7 +8,7 @@ tags: ["AI", "Agents", "LLMs", "Code Execution", "Architecture", "Cloudflare Wor
 author: "OpenDots Team"
 keywords: ["AI agents", "code execution", "MCP tool calling", "LLM optimization", "token efficiency", "V8 isolates", "agent architecture", "secure code execution"]
 cover:
-  image: "/images/code-mode-agents.png"
+  image: "/images/code-mode-agents.webp"
   alt: "Code Mode vs Traditional Tool Calling - AI Agent Architecture Comparison"
   caption: "The shift from tool calling to code execution"
 ---

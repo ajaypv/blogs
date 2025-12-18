@@ -17,3 +17,12 @@ Thumbs.db
 
 # Node (if using npm scripts)
 node_modules/
+
+# Original uncompressed images (backup)
+static/images/originals/
+
+# Temp files from compression
+static/images/_temp_*
+
+# Compression manifest (tracks already compressed images)
+static/images/.compressed-manifest.json
