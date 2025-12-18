@@ -1,4 +1,4 @@
-baseURL = "https://blogs.opendots.in/"
+baseURL = "https://blog.opendots.in/"
 languageCode = "en-us"
 title = "OpenDots Blog"
 theme = "opendots-theme"
