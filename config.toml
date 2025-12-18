@@ -11,10 +11,15 @@ theme = "opendots-theme"
   description = "Stories, updates, and insights from the OpenDots community"
   author = "OpenDots Team"
   logo = "/images/logo.svg"
+  defaultImage = "/images/og-default.jpg"
   
   # Social links
   twitter = "opendots"
   github = "opendots"
+  linkedin = "https://www.linkedin.com/company/opendots/"
+  
+  # SEO
+  keywords = ["OpenDots", "community", "social platform", "tech", "AI"]
 
 [markup]
   [markup.goldmark]
