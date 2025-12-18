@@ -37,18 +37,24 @@ Edit the file in `content/posts/my-new-post.md`, set `draft: false` when ready t
 
 ## Deployment
 
-This blog is deployed on Cloudflare Pages.
+This blog is deployed on Cloudflare Pages (NOT Workers).
 
 ### Cloudflare Pages Setup
 
-1. Go to Cloudflare Dashboard → Pages
-2. Create a new project
-3. Connect your GitHub repository
+1. Go to Cloudflare Dashboard → **Pages** (not Workers & Pages → Workers)
+2. Click "Create a project" → "Connect to Git"
+3. Select your GitHub repository
 4. Configure build settings:
-   - **Build command:** `hugo --minify`
+   - **Framework preset:** Hugo
+   - **Build command:** `hugo`
    - **Build output directory:** `public`
-   - **Root directory:** `blogs`
-   - **Environment variable:** `HUGO_VERSION` = `0.140.0`
+   - **Root directory (path):** `blogs`
+5. Add Environment Variable:
+   - **Variable name:** `HUGO_VERSION`
+   - **Value:** `0.140.0`
+6. Click "Save and Deploy"
+
+> ⚠️ **Important:** Do NOT use `wrangler deploy` - that's for Workers. Pages deploys automatically from Git.
 
 ### Custom Domain
 
