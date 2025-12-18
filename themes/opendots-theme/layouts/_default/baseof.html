@@ -25,10 +25,10 @@
 <body>
   <header class="site-header">
     <nav class="nav-container">
-      <a href="{{ .Site.BaseURL }}" class="logo">
-        <span class="logo-text">OpenDots</span>
-        <span class="logo-blog">Blog</span>
-      </a>
+      <div class="logo">
+        <a href="https://opendots.in" class="logo-text" target="_blank" rel="noopener">OpenDots</a>
+        <a href="{{ .Site.BaseURL }}" class="logo-blog">Blog</a>
+      </div>
       <ul class="nav-menu">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>{{ .Name }}</a></li>
