@@ -1,6 +1,6 @@
 ---
 title: "The Bigger Idea Behind OpenDots: How AI Connects the Dots Between People"
-date: 2024-12-19
+date: 2025-12-19
 draft: false
 slug: "the-bigger-idea-behind-opendots"
 description: "OpenDots isn't just another social app. It's an AI-powered network where your personal agent understands your goals, learns your context, and connects you with the right people at the right time."
