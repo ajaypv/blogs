@@ -8,10 +8,11 @@ theme = "opendots-theme"
   posts = "/:slug/"
 
 [params]
-  description = "Stories, updates, and insights from the OpenDots community"
+  description = "OpenDots Blog - Discover how AI connects people through shared goals, interests, and communities. Find roommates, co-founders, and meaningful connections powered by Dots AI."
   author = "OpenDots Team"
   logo = "/images/logo.svg"
   defaultImage = "/images/og-default.jpg"
+  tagline = "AI-Powered Human Connections"
   
   # Social links
   twitter = "opendotss"
@@ -19,7 +20,7 @@ theme = "opendots-theme"
   linkedin = "https://www.linkedin.com/company/opendots/"
   
   # SEO
-  keywords = ["OpenDots", "community", "social platform", "tech", "AI"]
+  keywords = ["OpenDots", "AI connections", "find roommates", "community platform", "Dots AI", "co-founder matching", "social AI", "meaningful connections", "housing finder", "group trips", "local community"]
 
 [markup]
   [markup.goldmark]
