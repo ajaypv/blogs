@@ -8,7 +8,7 @@ tags: ["OpenDots", "AI", "Dots AI", "Spaces", "Community", "Vision"]
 author: "OpenDots Team"
 keywords: ["OpenDots", "Dots AI", "AI agent", "human connection", "community platform", "spaces", "roommate finder", "AI matchmaking", "social network"]
 cover:
-  image: ""
+  image: "/images/og-default.jpg"
   alt: "OpenDots - Connecting People Through AI"
   caption: "Where AI meets human connection"
 ---
