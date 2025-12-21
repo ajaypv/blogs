@@ -1,11 +1,12 @@
 ---
 title: "Welcome to OpenDots"
-date: 2024-12-18
+date: 2025-12-17
 draft: false
 slug: "welcome-to-opendots"
-description: "Introducing OpenDots - a social platform connecting communities through shared interests, housing needs, and local experiences."
+description: "Meet OpenDots — the AI-powered platform for finding roommates, joining local communities, planning group trips, and connecting with people who share your interests. Your next meaningful connection starts here."
 tags: ["announcement", "community", "launch"]
 author: "OpenDots Team"
+keywords: ["OpenDots launch", "community platform", "roommate finder", "group trips", "local events", "social platform", "AI recommendations"]
 cover:
   image: ""
   alt: "OpenDots Launch"

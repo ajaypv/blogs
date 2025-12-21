@@ -1,9 +1,9 @@
 ---
 title: "If You Understand the Transformer, You Understand Modern AI"
-date: 2024-12-18
+date: 2025-12-18
 draft: false
 slug: "understanding-transformer-architecture"
-description: "The Transformer architecture powers everything from GPT to image generation. Learn how attention mechanisms, layers, and token prediction create what looks like intelligence."
+description: "Master the architecture behind GPT, Claude, and every major AI model. A clear breakdown of attention mechanisms, token prediction, and why scale turns simple math into apparent intelligence."
 tags: ["AI", "Transformer", "Deep Learning", "GPT", "Machine Learning", "LLMs"]
 author: "OpenDots Team"
 keywords: ["transformer architecture", "attention mechanism", "GPT explained", "how LLMs work", "deep learning basics", "AI architecture", "machine learning fundamentals"]

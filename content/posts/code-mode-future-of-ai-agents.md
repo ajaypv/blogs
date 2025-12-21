@@ -1,9 +1,9 @@
 ---
 title: "Why Code Mode is the Future of AI Agents"
-date: 2024-12-18T14:00:00
+date: 2025-12-19T14:00:00
 draft: false
 slug: "code-mode-future-of-ai-agents"
-description: "Direct function calls are burning your tokens and money. The real upgrade isn't smarter prompts — it's letting LLMs write real code in secure sandboxes."
+description: "Stop wasting tokens on tool calling. Learn why letting AI agents write and execute real code in V8 isolates cuts costs by 90-98% while improving reliability. The future of agent architecture explained."
 tags: ["AI", "Agents", "LLMs", "Code Execution", "Architecture", "Cloudflare Workers"]
 author: "OpenDots Team"
 keywords: ["AI agents", "code execution", "MCP tool calling", "LLM optimization", "token efficiency", "V8 isolates", "agent architecture", "secure code execution"]
