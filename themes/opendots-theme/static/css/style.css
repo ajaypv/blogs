@@ -647,10 +647,81 @@ body {
 /* ===== Footer ===== */
 .site-footer {
   border-top: 3px double var(--border);
-  padding: 2rem 1.5rem;
+  padding: 3rem 1.5rem 2rem;
   text-align: center;
   color: var(--text-muted);
   font-size: 0.9rem;
+  background: var(--bg-secondary);
+}
+
+.footer-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.footer-help {
+  margin-bottom: 1.5rem;
+}
+
+.footer-help a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-help a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-social a {
+  color: var(--text-muted);
+  transition: color 0.2s, transform 0.2s;
+}
+
+.footer-social a:hover {
+  color: var(--text);
+  transform: translateY(-2px);
+}
+
+.footer-social svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer-links span {
+  color: var(--border);
+}
+
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--text);
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
 }
 
 .site-footer a {
